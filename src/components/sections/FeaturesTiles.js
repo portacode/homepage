@@ -63,18 +63,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
+                      style={{padding: 20}}
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
+                      width={128}
+                      height={128} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Cross-platform
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Since portacode is based on web technologies, it can operate on any client device, including smartphones and tablets and it's offically the first platform to offer mobile friendly code editor along with mobile friendly remote file explorer.
                     </p>
                 </div>
               </div>
@@ -85,18 +86,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
+                      style={{padding: 5}}
                       src={require('./../../assets/images/feature-tile-icon-02.svg')}
                       alt="Features tile icon 02"
-                      width={64}
-                      height={64} />
+                      width={128}
+                      height={128} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Integrated
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  With git's amazing version control system, Github's powerful online free code hosting, and Portacode's online code editor, you no longer have to get confused over too many different copies with different versions of the same project!
                     </p>
                 </div>
               </div>
@@ -107,18 +109,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
+                      style={{padding: 5}}
                       src={require('./../../assets/images/feature-tile-icon-03.svg')}
                       alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
+                      width={128}
+                      height={128} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Wide Code support
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Portacode's code editor supports syntax highlighting, auto indentation, autocompletion, error detection and many awesome features for pretty much all programming languages!
                     </p>
                 </div>
               </div>
@@ -129,18 +132,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
+                      style={{padding: 20}}
                       src={require('./../../assets/images/feature-tile-icon-04.svg')}
                       alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
+                      width={128}
+                      height={128} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  High Performance
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  In portacode, performance is a top priority. That's why Portacode was carefully structured to work with optimal performance on all kinds of devices even on client devices of minimal computational resources and limited bandwidth.
                     </p>
                 </div>
               </div>
@@ -151,23 +155,24 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
+                      style={{padding: 20}}
                       src={require('./../../assets/images/feature-tile-icon-05.svg')}
                       alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
+                      width={128}
+                      height={128} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Free
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  We're still working on a premium plan. Meanwhile, it's 100% free of charge and early registered users will be granted premium privilages for free.
                     </p>
                 </div>
               </div>
             </div>
-
+{/* 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -188,7 +193,7 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
