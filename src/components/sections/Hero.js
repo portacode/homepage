@@ -69,9 +69,9 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://github.portacode.com">
+                  {/* <Button tag="a" color="primary" wideMobile href="https://github.portacode.com">
                     Go to Web App
-                    </Button>
+                    </Button> */}
                   <Button tag="a" color="dark" wideMobile href="https://app.portacode.com">
                     Go to PWA
                     </Button>
