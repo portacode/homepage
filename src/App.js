@@ -12,6 +12,7 @@ import Home from './views/Home';
 import Privacy from './views/Privacy';
 import Contact from './views/Contact';
 import Terms from './views/Terms';
+import Four04 from './views/404';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -43,6 +44,7 @@ const App = () => {
           <AppRoute exact path="/privacy" component={Privacy} layout={LayoutDefault} />
           <AppRoute exact path="/terms" component={Terms} layout={LayoutDefault} />
           <AppRoute exact path="/contact" component={Contact} layout={LayoutDefault} />
+          <AppRoute component={Four04} layout={LayoutDefault} />
         </Switch>
       )} />
   );
