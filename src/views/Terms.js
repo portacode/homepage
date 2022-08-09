@@ -1,22 +1,16 @@
 import React from 'react';
-// import sections
-import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
-import FeaturesSplit from '../components/sections/FeaturesSplit';
-import Testimonial from '../components/sections/Testimonial';
-import Cta from '../components/sections/Cta';
+import TermsOfService from '../components/sections/TermsOfService';
+import Container from '../components/sections/Container';
 
-const Home = () => {
-
+const Terms = () => {
   return (
-    <>
-      <Hero className="illustration-section-01" />
-      <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <Testimonial topDivider />
-      <Cta split />
-    </>
+    <Container
+      title="Portacode's Terms of Service"
+      paragraph="Please read the following terms of service carefully before using Portacode"
+    >
+      <TermsOfService />
+    </Container>
   );
 }
 
-export default Home;
+export default Terms;
