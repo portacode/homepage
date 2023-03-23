@@ -17,6 +17,14 @@ import Four04 from './views/404';
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
+if(process.env.REACT_APP_GA_CODE){
+  console.log("Connecting Google Analytics")
+}
+else{
+  console.log("Google Analitics Tracking ID not found")
+}
+
+
 const trackPage = page => {
   ReactGA.set({ page });
   ReactGA.pageview(page);
